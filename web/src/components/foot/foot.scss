@@ -1,0 +1,28 @@
+.j_foot{
+    width: 100%;
+    // height: 98px;
+    display: flex;
+    position:fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #e2e2e2;
+    border-bottom: 2px solid #e2e2e2;
+    .j_home,.j_class,.j_car,.j_my{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #535353;
+        font-size: 28px;
+        >i{
+            font-size: 52px;
+        }
+    }
+    .j_change_color{
+        color: #ff498c;
+    }
+}
