@@ -1,1 +1,189 @@
-h2{font-size: 58px;}
+body,html{height: 100%;}
+#app{height: 100%;}
+#j_car{
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    a{ text-decoration:none;}
+    
+    header{
+        height: 1.066667rem;
+        border-bottom:.026667rem solid #ccc;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+        padding:.133333rem;
+        a{color:#3e3e3e;}
+        i{font-size: .56rem;}
+        font-size: .56rem;
+        .j_gwc{margin-left:.56rem;}
+        .j_hsz{font-size: .346667rem; color:#ff80af;}
+    }
+    main{
+        flex:1;
+        overflow-x: hidden;
+        ul{
+            display: flex;
+            flex-direction:column;
+           
+            li{
+                display: flex;
+                padding:10px;
+                border-bottom:.013333rem solid #ccc;
+                .j_xz{
+                    width: .666667rem;
+                    height: .666667rem;
+                    border:.026667rem solid #ccc;
+                    border-radius: 50%;
+                    font-size: .4rem;
+                    color:#fff;
+                    margin-top:.933333rem;
+                    text-align: center;
+                  
+                }
+                .j_img{
+                    width: 2.4rem; height: 2.4rem;
+                    img{width: 100%;height: 100%;}
+                }
+               .j_r{
+                    display: flex;
+                    flex-direction:column;
+                    font-size: .373333rem;
+                    width: 6.666667rem;
+                    margin-left:.266667rem;
+                    .j_jf{color:#ff80af;}
+                    .j_jg{
+                        span{float:right;margin-right:.133333rem;}
+                    }
+                    .j_qty{
+                        display: flex;
+                        color:#ccc;
+                        .input{
+                            width: .8rem;
+                            height: .533333rem;
+                            border:.013333rem solid #ccc;
+                            text-align: center;
+                            font-size: .346667rem;
+                            color:#3e3e3e;
+                        }
+                        .j_jian,.j_jia{
+                            display: block;
+                            border:.013333rem solid #ccc;
+                            width: .666667rem;
+                            height: .533333rem;
+                            text-align: center;
+                        }
+                        .j_zrs{margin-left:.48rem;}
+                        .j_sc{font-size: .453333rem; margin:.213333rem 0 0 .986667rem;}
+                    }
+               }
+               
+            }
+            
+        }
+       
+
+    }
+    footer{
+        display: flex;
+        height: 1.48rem;
+        border-top:.013333rem solid #ccc;
+        padding:.133333rem;
+        .j_qx{
+            width: .666667rem;
+            height: .666667rem;
+            border:.026667rem solid #ccc;
+            border-radius: 50%;
+            font-size: .4rem;
+            color:#fff;
+            margin:.266667rem .133333rem;
+            text-align: center;
+        }
+        .j_qxx{margin:.266667rem .133333rem; font-size: .453333rem;}
+        .j_zj{font-size: .346667rem; margin:.133333rem 0 .133333rem .3rem;}
+        .j_zjs{
+            font-size: .533333rem;
+            // margin-left:120px;
+            height: 1.066667rem;
+            width: 4rem;
+            text-align: center;
+            line-height: 1.066667rem;
+            border:.013333rem solid #ff80af;
+            background-color: #ff80af;
+            color:#fff;
+            border-radius: .2rem;
+            position: absolute;
+            bottom:.173333rem;
+            right: .266667rem;
+        }
+    }
+            /*修改复选框样式*/
+            .j_check{
+                /*去除浏览器默认样式*/
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                /*自定义样式*/
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                width: 0.266667rem*2;
+                height: 0.266667rem*2;
+                border: 0.013333rem*2 solid #aaa;
+                outline: none;
+                cursor: pointer;
+                /*设置为圆形，看起来是个单选框*/
+                -webkit-border-radius: 0.266667rem*2;
+                -moz-border-radius: 0.266667rem*2;
+                border-radius: 50%;
+                cursor: pointer;
+                
+            }
+            /*选中之后的样式*/
+            .j_check:after{
+                content: '';
+                position: absolute;
+                width: 0.16rem*2;
+                height: 0.16rem*2;
+                display: block;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                background: #f24730;
+                -webkit-border-radius: 0.16rem*2;
+                -moz-border-radius: 0.16rem*2;
+                border-radius: 0.16rem*2;
+                -webkit-transform: scale(0);
+                -moz-transform: scale(0);
+                transform: scale(0);
+            }
+            .j_check:checked:after{
+                -webkit-transform: scale(1);
+                -moz-transform: scale(1);
+                transform: scale(1);
+            }
+            .j_dx{margin-top:.8rem;
+                margin-right:.133333rem;}
+            .j_checkAllBox{
+                font-size: .4rem;
+               margin-top:.32rem;
+               input{margin-right:.266667rem;}
+            }
+            
+            .lan{
+                width: 100%;
+                height: 100%;
+                position:fixed;
+                z-index: 9999;
+                background-color: hsla(0, 15%, 94%, 0.87);
+                top: 0;
+                    i{
+                        font-size: 160px;
+                        color:#ff498c;
+                        margin: 70% 40%;
+                    }
+            }
+            
+}

@@ -1,0 +1,71 @@
+.h_home{font-size: 30px;}
+
+.block{
+    height:1.6rem;
+}
+.t_main{
+     width:100%;
+     overflow:hidden;
+    .t_hot_product{
+        border-bottom:0.08rem solid #e2e2e2;
+    }
+    .t_recommand{
+        .r_item{
+            width:33%;
+            display:inline-block;
+            padding: 4% 3%;
+            border-bottom: 1px solid #E9E9E9;
+        }
+    }
+    .t_goodslist{
+        .show_item{
+            width:100%;
+            background-color: #fff;
+            overflow:hidden;
+             padding:4% 3%;
+             border-bottom:2px solid #E9E9E9;
+             position:relative;
+            img{
+                width:30%;
+                float:left;
+            }
+            .text{
+                
+
+                margin-top: 0.266667rem;
+                margin-left:3.266667rem;
+                
+                p{
+                    margin-bottom:0.133333rem;
+                }
+                .good_name{
+                    color:#000;
+                    
+                }
+                .good_des{
+                    color:#969696;
+                    
+                }
+                .good_price{
+
+                    color:#585858;
+                    span{
+                        color:#FD4688;
+                    }
+                }
+            }
+            .add_car{
+                position:absolute;
+                width:8%;
+                right:3%;
+                bottom:10%;
+            }
+            .proicon{
+                position:absolute;
+                width:11%;
+                left:3%;
+                top:11%;
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.r_add{
+    .r_addhead{
+        width: 100%;
+        height: 1.093333rem;
+        border-bottom: .026667rem solid #ddd;
+        position:relative;
+        .r_back{
+            width: 15%;
+            height: 1.066667rem;
+            position:absolute;
+            font-size: .933333rem;
+            left: .266667rem;
+        }
+        .r_h1{
+            display: block;
+            flex:1;
+            height: 1.066667rem;
+            text-align: center;
+            font-size: .506667rem;
+            padding-top: .133333rem;
+            background: #fff;
+        }
+        .r_jia{
+            width: 10%;
+            height: .666667rem;
+            position:absolute;
+            font-size: .4rem;
+            right: .133333rem;
+            color: #f00;
+            top: .266667rem;
+        }
+    }
+    .r_dizhi{
+        li{
+            height: 2.693333rem;
+            border-bottom: .026667rem solid #ddd;
+            width: 100%;
+            margin-bottom: .266667rem;
+            border-top: .026667rem solid #ddd;
+            .r_dizhi_t{
+                border-bottom: .026667rem solid #ddd;
+                padding-top: .133333rem;
+                p{
+                    height: .653333rem;
+                    font-size: .373333rem;
+                    padding-left: .4rem;
+                }
+            }
+            .r_dizhi_b{
+                font-size: .373333rem;
+                position:relative;
+                height: 1.333333rem;
+                .r_moren{
+                    display: block;
+                    width: .4rem;
+                    height: .4rem;
+                    position:absolute;
+                    left: .4rem;
+                    top: .4rem;
+                }
+                i{
+                    position:absolute;
+                    left: .933333rem;
+                    top:.333333rem;
+                }
+                span{
+                    display: block;
+                    float: right;
+                    width: 1.6rem;
+                    position:relative;
+                    padding-top: .4rem;
+                    j{
+                        position:absolute;
+                        top: 0;
+                        left: .533333rem;
+                        top: .333333rem;
+                    }
+                }
+            }
+        }
+    }
+}

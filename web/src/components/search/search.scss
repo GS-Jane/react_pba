@@ -1,0 +1,109 @@
+
+.search_goods{
+    font-size:30px;
+    .fix-go-home{
+        display: block;
+        position: fixed;
+        bottom: 0.266667rem;
+        left: 3%;
+        width: 2.466667rem;
+        .menu-icon{
+            width:1.066667rem;
+            height:1.066667rem;
+        }
+      
+        .fix-nav{
+            display:none;
+            ul{
+            
+                li{
+                    height:0.933333rem;
+                    line-height:0.933333rem;
+                    width:2.8rem;
+                    border:0.013333rem solid #E2E2E2;
+                    border-bottom:0;
+                    background-color: #FFF;
+                    img{
+                        width:0.88rem;
+                        float:left;
+                        padding-left:0.213333rem;
+                        margin-top:0.133333rem;
+                    }
+                    a{
+                        font-size:0.4rem;
+                        margin-left:10px;
+                        color:black;
+                        display:inline-block;
+                    }
+                }
+            }
+            
+        }
+    }   
+    .search_show_goods{
+       
+        .show_item{
+            background-color: #fff;
+            overflow:hidden;
+             padding:4% 3%;
+             border-bottom:2px solid #E9E9E9;
+             position:relative;
+            img{
+                width:30%;
+                float:left;
+            }
+            .text{
+                
+
+                margin-top: 0.266667rem;
+                margin-left:3.266667rem;
+                
+                p{
+                    margin-bottom:0.133333rem;
+                }
+                .good_name{
+                    color:#000;
+                    
+                }
+                .good_des{
+                    color:#969696;
+                    
+                }
+                .good_price{
+
+                    color:#585858;
+                    span{
+                        color:#FD4688;
+                    }
+                }
+            }
+            .add_car{
+                position:absolute;
+                width:10%;
+                right:3%;
+                bottom:10%;
+            }
+        }
+
+    }
+}
+.search_goods{
+    .fix-go-home{
+        .showblock{
+            display:block;
+        }
+    }
+}
+.errorbox{
+    display:none;
+    position:absolute ;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    font-size:0.4rem;
+    width:100%;
+    text-align:center;
+    a{
+        color:red;
+    }
+}

@@ -1,0 +1,140 @@
+.r_my{
+    .r_mtop{
+        color: #fff;
+        background: #e2e2e2;
+        width: 100%;
+        height: 3.333333rem;
+        padding: 40px;
+        .r_mtouxiang{
+            float: left;
+            width: 2rem;
+            height: 2rem;
+            border: .04rem solid #fff;
+            border-radius:100%;
+        }
+        .r_muser{
+            padding-top: .8rem;
+            margin-left: .533333rem;
+            float: left;
+            color: #000;
+            font-size: .346667rem;
+        }
+        .r_mright{
+            padding-top: .666667rem;
+            float: right;
+            font-size: .8rem;
+        }
+    }
+    .r_mlook{
+        display: flex;
+        li{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: .346667rem;
+            background: #ccc;
+            color: #fff;
+            height: 1.733333rem;
+            padding-top: .933333rem;
+            position:relative;
+            i{
+                color: #fff;
+                font-size: .346667rem;
+                position:absolute;
+                top: .4rem;
+                left: 1.066667rem;
+            }
+        }
+        
+    }
+    .r_morder{
+        height: 1.466667rem;
+        padding: .4rem;
+        border-bottom: .026667rem solid #ddd;
+        .icon-dingdan{
+            float: left;
+            font-size: .533333rem;
+        }
+        .r_mwddd{
+            font-size:.4rem;
+            float: left;
+            margin-left: .266667rem;
+        }
+        .r_mckqbdd{
+            font-size:.4rem;
+            float: right;
+            margin-left: .266667rem;
+            color: #ccc;
+            margin-right: .266667rem;
+        }
+        .r_mright{
+            float: right;
+            font-size: .533333rem;
+        }
+    }
+    .r_mdai{
+        display: flex;
+        border-bottom: .026667rem solid #ddd;
+        li{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: .346667rem;
+            background: #fff;
+            height: 1.733333rem; 
+            padding-top: .933333rem;
+            position:relative;
+            i{
+                color: #000;
+                font-size: .533333rem;
+                position:absolute;
+                top: .266667rem;
+                left: .8rem;
+            }
+        }
+    }
+    .r_mxilie{
+        margin-top: 30px;
+        border-top: 2px solid #ddd;
+        li{
+            height: 110px;
+            padding: 30px;
+            border-bottom: 2px solid #ddd;
+            .r_micon{
+                float: left;
+                font-size: 50px;
+                margin-right: 10px;
+            }
+            .r_mxlm{
+                float: left;
+                font-size: 32px;
+                padding-top: 5px;
+            }
+            .r_mright{
+                float: right;
+                font-size: 32px;
+                padding-top: 15px;
+            }
+            .r_mxlr{
+                padding-top: 5px;
+                float: right;
+                font-size: 32px;
+
+            }
+        }
+    }
+    .r_mbutton{
+        margin-top: 50px;
+        margin-bottom: 200px;
+        width: 90%;
+        height: 90px;
+        color: #fff;
+        background: #FC4C88;
+        margin-left: 40px;
+        text-align: center;
+        font-size: 28px;
+        padding-top: 28px;
+    }
+}

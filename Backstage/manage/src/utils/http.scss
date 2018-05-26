@@ -1,0 +1,17 @@
+.loading{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    background-color: hsla(0, 15%, 94%, 0.21);
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.loading-icon{
+    position:absolute;
+    left:42%;
+    top:40%;
+    font-size: 160px;
+    color:#ff498c;
+}

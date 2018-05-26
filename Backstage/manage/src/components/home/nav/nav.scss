@@ -1,0 +1,25 @@
+.l_nav{
+	width: 180px;
+	position: absolute;
+	left: 0px;
+	top: 81px;
+    .l_guanli{
+        >li{
+            line-height: 49px;
+            border-bottom: solid 1px #ccc;
+            text-align: center;
+            cursor: pointer;
+            font-size: 18px;
+            a{
+                display: inline-block;
+                width: 180px;
+                &:hover{
+                    color: #f00;
+                }
+            }
+            &.l_active{
+                background: #97C5A8;
+            }
+        }
+    }
+}

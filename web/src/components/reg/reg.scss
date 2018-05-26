@@ -1,0 +1,109 @@
+body{
+    background: #fff
+}
+.r_reg{
+    background: #fff;
+    .r_reghead{
+        width: 100%;
+        height: 1.066667rem;
+        border-bottom: .026667rem solid #999;
+        position:relative;
+        .r_back{
+            width: 15%;
+            height: 1.066667rem;
+            position:absolute;
+            font-size: .933333rem;
+            left: .266667rem;
+        }
+        .r_h1{
+            display: block;
+            flex:1;
+            height: 1.066667rem;
+            text-align: center;
+            font-size: .506667rem;
+            padding-top: .133333rem;
+            background: #fff;
+        }
+    }
+    .r_regmain{
+        padding-left: .2rem;
+        padding-right: .2rem;
+        .r_title{
+            font-size: .4rem;
+            padding-top: .2rem;
+            padding-bottom: .2rem;
+            background: #fff;
+        }
+        .r_main{
+            .r_li{
+                flex:1;
+                // height: 80px;
+                background: #f1f1f1;
+                position:relative;
+                border-bottom: .026667rem solid #ccc;
+                .r_li1{
+                    position:absolute;
+                    font-size: .666667rem;
+                    left: .066667rem;
+                    top: .133333rem;
+                }
+                .r_input{
+                    width: 100%;
+                    border: 0;
+                    background: #f1f1f1;
+                    height: 1.066667rem;
+                    padding-top: .133333rem;
+                    font-size: .4rem;
+                    padding-left: .8rem;
+
+                }
+                .SMS{
+                    position:absolute;
+                    display: block;
+                    height: .666667rem;
+                    width: 30%;
+                    background: #fff;
+                    right: .2rem;
+                    top: .2rem;
+                    font-size: .4rem;
+                    text-align: center;
+                    padding-top: .066667rem;
+                }
+                .tishi{
+                    height: .8rem;
+                    background: #fff;
+                    color: #f00;
+                    font-size: .373333rem;
+                    padding-top: .2rem;
+                    display: none;
+                }
+                
+            }
+        }
+        .r_button{
+            flex:1;
+            height: 1.066667rem;
+            margin-top: .266667rem;
+            font-size: .4rem;
+            background: #ff498c;
+            text-align: center;
+            padding-top: .266667rem;
+            color: #fff;
+            border: .013333rem solid #ff498c;
+            border-radius:.2rem;
+        }
+        .r_foot{
+            float: right;
+            font-size: .373333rem;
+            margin-top: .2rem;
+            .r_check{
+                width: .373333rem;
+                height: .373333rem;
+                margin-right: .133333rem;
+            }
+            .r_xieyi{
+                font-size: .373333rem;
+            }
+        }
+    }
+}

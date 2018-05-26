@@ -20,10 +20,15 @@ export default class FootComponent extends React.Component{
             hashHistory.push("/list")
         }
         car(){
-            hashHistory.push("/car")
+           
+                hashHistory.push("/car")
+          
         }
         my(){
-            hashHistory.push("/my")
+        
+                hashHistory.push("/my")
+            
         }
+
 }
 
